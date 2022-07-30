@@ -44,8 +44,9 @@ To view a video demo of this circuit, visit [Video Demo](https://drive.google.co
 |6  |Resistor        | 220 ohms | 1|
 |7  |Arduino Uno     | -| 1|
 |8  |Connecting Wires|-| As many as needed|
+|9  |Breadboard      |Standard Size| 1|
 
-**Note**: The 220 ohms resistor was chosen specifically for the blue LED since the blue LED I used was rated for 3-3.4 volts whereas other color LEDs were rated for 2-2.4 volts. To have uniform brightness amongst all LEDs the blue LED was connected via a higher resistance.
+**Note**: The 220 ohms resistor was chosen specifically for the blue LED since the blue LED used here was rated for 3-3.4 volts whereas other color LEDs were rated for 2-2.4 volts. To have uniform brightness amongst all LEDs the blue LED was connected via a higher resistance.
   
 
 ### Program Logic
@@ -62,7 +63,7 @@ Keep in mind the range of the data type you use, especially when it comes to dec
 FYI, the millis() function will return the total time in milliseconds for upto 50 days.  
   
 **Player Input**  
-While the electronic circuit is not complicated, the code is what takes the most time. Specifically, the block of code that takes in player input from the push buttons. It needs a step by step approach to get it right. Break the player input task into sub tasks, implement one sub-task, upload to the board, run & see what works & what needs to be done next, and then go back to updating the code. The flowchart I have in the working directory for this project might be particularly useful.
+While the electronic circuit is not complicated, the code is what takes the most time. Specifically, the block of code that takes in player input from the push buttons. It needs a step by step approach to get it right. Break the player input task into sub tasks, implement one sub-task, upload to the board, run and see what works, what needs to be done next, and then go back to updating the code. The flowchart in the working directory (see `assets/flowchart/`) for this project might be particularly useful.
 
 ## References
 
@@ -70,3 +71,5 @@ While the electronic circuit is not complicated, the code is what takes the most
 - [SIKcode GitHub repo](https://github.com/sparkfun/SIK-Guide-Code)
 - [Arduino Official Documentation](https://docs.arduino.cc/)
 - [Design Programming Flowcharts](https://www.programiz.com/article/flowchart-programming)
+- Tool used for building circuit schematic, [circuit-diagram.org](https://www.circuit-diagram.org/)
+- Tool used for building program logic flowchart, [app.diagrams.net](https://app.diagrams.net/)
