@@ -50,6 +50,8 @@ To view a video demo of this circuit, visit [Video Demo](https://drive.google.co
 
 ### Program Logic
 
+**Note**: To understand the flowchart symbols used in the flowchart below, refer to [this](https://www.programiz.com/article/flowchart-programming).  
+
 <img src="assets/flowchart/simon_says_logic.png" alt="flowchart">
 
 ## Things to keep in mind
@@ -67,3 +69,4 @@ While the electronic circuit is not complicated, the code is what takes the most
 - "SparkFun Inventor's Kit, Version 4.1a", [Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41)
 - [SIKcode GitHub repo](https://github.com/sparkfun/SIK-Guide-Code)
 - [Arduino Official Documentation](https://docs.arduino.cc/)
+- [Design Programming Flowcharts](https://www.programiz.com/article/flowchart-programming)
